@@ -95,7 +95,7 @@ export const metadata: Metadata = {
     siteName: "Rehan Munir",
     images: [
       {
-        url: "/linkedinn%20banner.png",
+        url: "/linkedinn%20banner.webp",
         width: 1200,
         height: 630,
         alt: "Rehan Munir software engineer and UI/UX designer portfolio",
@@ -108,7 +108,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["/linkedinn%20banner.png"],
+    images: ["/linkedinn%20banner.webp"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -123,7 +123,7 @@ const structuredData = {
       "@id": `${siteUrl}/#person`,
       name: "Rehan Munir",
       url: siteUrl,
-      image: `${siteUrl}/profile%20pic.png`,
+      image: `${siteUrl}/profile%20pic.webp`,
       jobTitle: "Software Engineer and UI/UX Designer",
       email: "rehanmunir034455@gmail.com",
       address: {

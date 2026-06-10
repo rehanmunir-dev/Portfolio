@@ -413,7 +413,7 @@ export function Portfolio() {
               <div className="flex items-center gap-3 border-b border-surface-border pb-5 sm:gap-4 sm:pb-6">
                 <div className="relative h-16 w-16 flex-none overflow-hidden rounded-2xl border border-[#0AD1BC]/30 shadow-[0_10px_30px_rgba(10,209,188,0.2)] sm:h-20 sm:w-20 sm:rounded-3xl">
                   <Image
-                    src="/profile pic.png"
+                    src="/profile pic.webp"
                     alt="Rehan Munir"
                     fill
                     className="object-cover"

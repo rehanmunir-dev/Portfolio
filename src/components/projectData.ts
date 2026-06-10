@@ -35,7 +35,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Figma"],
     behanceUrl: "https://www.behance.net/gallery/244526811/Anchorage-Phase-2-Website-Design-Development",
     liveUrl: "https://anchoragephase2.pk/",
-    image: "/projects%20development/Anchorage-Phase-2-Islamabad-05-31-2026_05_55_PM.png"
+    image: "/projects%20development/Anchorage-Phase-2-Islamabad-05-31-2026_05_55_PM.webp"
   },
   {
     id: "develoscape",
@@ -47,7 +47,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["ReactJS", "Next.js", "Tailwind CSS", "Framer Motion", "Figma"],
     behanceUrl: "https://www.behance.net/gallery/244625467/Develoscape-Professional-Company-Website",
     liveUrl: "https://develoscape.com.pk/",
-    image: "/projects%20development/Develoscape-05-31-2026_06_03_PM.png"
+    image: "/projects%20development/Develoscape-05-31-2026_06_03_PM.webp"
   },
   {
     id: "falcon-town-greens",
@@ -59,7 +59,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Lucide React"],
     behanceUrl: "https://www.behance.net/gallery/244527829/Falcon-Town-Greens-Luxury-Farmhouse-Community-Website",
     liveUrl: "https://falcontowngreens.com/",
-    image: "/projects%20development/falcontowngreen.png"
+    image: "/projects%20development/falcontowngreen.webp"
   },
   {
     id: "beacontechh",
@@ -71,7 +71,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Figma"],
     behanceUrl: "https://www.behance.net/gallery/244527427/BeaconTechh-Website-Design-Development",
     liveUrl: "https://beacontech-react.vercel.app/",
-    image: "/projects%20development/Beacon-Techh-Navigating-Brands-to-Digital-Success-05-31-2026_06_27_PM.png"
+    image: "/projects%20development/Beacon-Techh-Navigating-Brands-to-Digital-Success-05-31-2026_06_27_PM.webp"
   },
   {
     id: "dua-al-khaleej",
@@ -83,7 +83,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["React", "Tailwind CSS", "Node.js", "i18next", "Express"],
     behanceUrl: "https://www.behance.net/gallery/240201983/Dua-Al-Khaleej-Website-Developed",
     liveUrl: "https://dakksa.com/",
-    image: "/projects%20development/Duaa-Al-Khaleej-Co-Ltd-Construction-Solutions-Provider-UAE-Saudi-Arabia-05-31-2026_06_29_PM.png"
+    image: "/projects%20development/Duaa-Al-Khaleej-Co-Ltd-Construction-Solutions-Provider-UAE-Saudi-Arabia-05-31-2026_06_29_PM.webp"
   },
   {
     id: "brandaviation-pk",
@@ -95,7 +95,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["React", "Tailwind CSS", "Figma", "Responsive UI", "Web Development"],
     behanceUrl: "https://www.behance.net/gallery/238556123/Event-Management-Company-Sites-brandaviationpk",
     liveUrl: "https://brandaviation.pk/",
-    image: "/projects%20development/Brand-Aviation-05-31-2026_06_31_PM.png"
+    image: "/projects%20development/Brand-Aviation-05-31-2026_06_31_PM.webp"
   },
   {
     id: "ruh-al-quran-institute",
@@ -107,7 +107,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["Next.js", "React", "Tailwind CSS", "Supabase", "Framer Motion"],
     behanceUrl: "https://www.behance.net/gallery/244767611/Ruh-Al-Quran-Institute-Online-Learning-Platform",
     liveUrl: "https://ruhalquraninstitute.com/",
-    image: "/projects%20development/Ruh-Al-Quran-05-31-2026_06_32_PM.png"
+    image: "/projects%20development/Ruh-Al-Quran-05-31-2026_06_32_PM.webp"
   },
   {
     id: "waada-residence",
@@ -119,7 +119,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Figma"],
     behanceUrl: "https://www.behance.net/gallery/238876291/Waada-Residence-Site-Designed-And-Developed",
     liveUrl: "https://waadaresidence.wasmer.app/",
-    image: "/projects%20development/waada-properties-05-31-2026_06_35_PM.png"
+    image: "/projects%20development/waada-properties-05-31-2026_06_35_PM.webp"
   },
   {
     id: "rabcon",
@@ -131,7 +131,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["React.js", "JavaScript", "Tailwind CSS", "Framer Motion", "Figma"],
     behanceUrl: "https://www.behance.net/gallery/238876515/Rabcon-Website-Designed-And-Developed-In-React-Js",
     liveUrl: "https://rabcon.wasmer.app/",
-    image: "/projects%20development/Rabcon-Engineering-Solutions-05-31-2026_06_37_PM.png"
+    image: "/projects%20development/Rabcon-Engineering-Solutions-05-31-2026_06_37_PM.webp"
   },
   {
     id: "securitysurveillance-pk",
@@ -143,7 +143,7 @@ export const developmentProjects: DevelopmentProject[] = [
     tools: ["Next.js", "TypeScript", "Tailwind CSS", "Lucide Icons", "Framer Motion"],
     behanceUrl: "https://www.behance.net/gallery/238876993/SecuritySurveillancepk-Security-Solutions-Website",
     liveUrl: "https://securitysurveillance.pk/",
-    image: "/projects%20development/SSK-Surveillance-System-SMC-Pvt-Ltd--05-31-2026_06_38_PM.png"
+    image: "/projects%20development/SSK-Surveillance-System-SMC-Pvt-Ltd--05-31-2026_06_38_PM.webp"
   }
 ];
 
@@ -157,7 +157,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Food Delivery", "Mobile UI", "App Design", "UX Flow"],
     tools: ["Figma", "UI Design", "User Flows", "Prototyping"],
     behanceUrl: "https://www.behance.net/gallery/243458431/Cafe-Farhan-App-UIUx-Design",
-    image: "/ui%20ux/cafe%20farhan.jpg"
+    image: "/ui%20ux/cafe%20farhan.webp"
   },
   {
     id: "bazmi",
@@ -168,7 +168,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Voice App", "Mobile UI/UX", "Social Network", "Dark Theme"],
     tools: ["Figma", "Adobe Illustrator", "Prototyping", "Design System"],
     behanceUrl: "https://www.behance.net/gallery/247174411/Bazmi-Premium-Voice-Social-App-UIUX-Design",
-    image: "/ui%20ux/bazmi.jpg"
+    image: "/ui%20ux/bazmi.webp"
   },
   {
     id: "kinetic",
@@ -179,7 +179,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Fitness Tech", "Mobile App UI", "Data Visualization", "Health & Wellness"],
     tools: ["Figma", "Vector Assets", "High-Fi Prototyping", "User Flows"],
     behanceUrl: "https://www.behance.net/gallery/246698465/KINETIC-Modern-Fitness-Tracking-Mobile-App",
-    image: "/ui%20ux/Kinetic.jpg"
+    image: "/ui%20ux/Kinetic.webp"
   },
   {
     id: "cravehub",
@@ -190,7 +190,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Food Ordering", "UX Case Study", "Mobile App Design", "User Research"],
     tools: ["Figma", "Miro", "User Persona Research", "Interactive Flows"],
     behanceUrl: "https://www.behance.net/gallery/244862307/CraveHub-Smart-Food-Delivery-App-UIUX-Case-Study",
-    image: "/ui%20ux/Cravehub.jpg"
+    image: "/ui%20ux/Cravehub.webp"
   },
   {
     id: "wanderlust",
@@ -201,7 +201,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Travel Tech", "Mobile UI", "Itinerary Builder", "Social Booking"],
     tools: ["Figma", "Visual Hierarchy", "Prototyping", "Design Systems"],
     behanceUrl: "https://www.behance.net/gallery/244774733/Wanderlust-Travel-Planning-Mobile-App-UIUX-Design",
-    image: "/ui%20ux/Wanderlust.png"
+    image: "/ui%20ux/Wanderlust.webp"
   },
   {
     id: "logitech-pakistan",
@@ -212,7 +212,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["E-Commerce", "Hardware Brand", "UX Redesign", "Desktop Interface"],
     tools: ["Figma", "Photoshop", "Interactive Prototyping", "Responsive Systems"],
     behanceUrl: "https://www.behance.net/gallery/230212245/Logitech-Pakistan-E-Commerce-UIUX-Redesign-Concept",
-    image: "/ui%20ux/logitech%20cover.png"
+    image: "/ui%20ux/logitech%20cover.webp"
   },
   {
     id: "velora",
@@ -223,7 +223,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Luxury Real Estate", "High-End App", "UI/UX Concept", "Virtual Tour UI"],
     tools: ["Figma", "Luxury Branding", "Micro-interactions", "Mockups"],
     behanceUrl: "https://www.behance.net/gallery/244779493/VELORA-Luxury-Real-Estate-Mobile-App-UIUX-Design",
-    image: "/ui%20ux/VELORA.jpg"
+    image: "/ui%20ux/VELORA.webp"
   },
   {
     id: "ahsan-enterprises",
@@ -234,7 +234,7 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["Shopify E-Commerce", "Desktop UI", "Product Showcases", "Conversion UI"],
     tools: ["Figma", "Shopify Guidelines", "Vector Assets", "Layout Systems"],
     behanceUrl: "https://www.behance.net/gallery/243720565/Ahsan-Enterprises-Modern-Shopify-Store-UIUX-Design",
-    image: "/ui%20ux/Ahsan%20Enterprises.png"
+    image: "/ui%20ux/Ahsan%20Enterprises.webp"
   },
   {
     id: "quran-academy",
@@ -245,6 +245,6 @@ export const uiuxProjects: UIUXProject[] = [
     tags: ["EdTech App", "Serene Design", "Mobile UI", "Audio Interface"],
     tools: ["Figma", "Illustrator", "Components", "Prototyping"],
     behanceUrl: "https://www.behance.net/gallery/243720915/Quran-Academy-Mobile-App-UIUX-Design",
-    image: "/ui%20ux/Quran%20Academy.png"
+    image: "/ui%20ux/Quran%20Academy.webp"
   },
 ];

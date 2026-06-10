@@ -42,8 +42,8 @@ export function ProjectCard({
   const isUiux = variant === "uiux" || project.type === "uiux";
   const cardHref = isUiux ? project.behanceUrl : project.liveUrl || project.behanceUrl;
   const fallbackImage = isUiux
-    ? "/ui%20ux/cafe%20farhan.jpg"
-    : "/projects%20development/Develoscape-05-31-2026_06_03_PM.png";
+    ? "/ui%20ux/cafe%20farhan.webp"
+    : "/projects%20development/Develoscape-05-31-2026_06_03_PM.webp";
   const safeImage = project.image.startsWith("/projects/")
     ? fallbackImage
     : project.image;
