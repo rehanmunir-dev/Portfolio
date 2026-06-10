@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #0F172A;
+  --surface: #F8F9FA;
+  --surface-secondary: #F1F5F9;
+  --surface-border: rgba(10, 209, 188, 0.12);
+  --primary-green: #0AD1BC;
+  --primary-green-glow: rgba(10, 209, 188, 0.25);
+  --muted-text: #64748B;
+  --card-bg: rgba(248, 249, 250, 0.8);
+  --font-display: var(--font-playfair);
+  
+  /* Mode Toggle Button */
+  --toggle-bg: #FFFFFF;
+  --toggle-fg: #0AD1BC;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #F3F4F6;
+  --surface: #0E0E0E;
+  --surface-secondary: #161616;
+  --surface-border: rgba(10, 209, 188, 0.2);
+  --primary-green: #0AD1BC;
+  --primary-green-glow: rgba(10, 209, 188, 0.45);
+  --muted-text: #94A3B8;
+  --card-bg: rgba(14, 14, 14, 0.85);
+
+  /* Mode Toggle Button */
+  --toggle-bg: #000000;
+  --toggle-fg: #0AD1BC;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-secondary: var(--surface-secondary);
+  --color-surface-border: var(--surface-border);
+  --color-primary-green: var(--primary-green);
+  --color-muted-text: var(--muted-text);
+  --color-card-bg: var(--card-bg);
+  --font-sans: var(--font-montserrat);
+  --font-mono: var(--font-jetbrains);
+  --font-display: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  transition: background-color 0.4s ease;
+  scroll-padding-top: 96px;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+* {
+  min-width: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+button,
+input,
+textarea {
+  overflow-wrap: anywhere;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+@media (min-width: 640px) {
+  section[id] {
+    scroll-margin-top: 112px;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #0AD1BC;
+  outline-offset: 3px;
+}
+
+/* Beautiful custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(10, 209, 188, 0.2);
+  border-radius: 99px;
+  border: 2px solid var(--background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0AD1BC;
+}
+
+::selection {
+  background: rgba(10, 209, 188, 0.2);
+  color: #0AD1BC;
+}
+
+/* Glowing utilities */
+.text-glow-green {
+  text-shadow: 0 0 15px rgba(10, 209, 188, 0.4);
+}
+
+.border-glow-green {
+  box-shadow: 0 0 20px rgba(10, 209, 188, 0.15);
+}
+
+.bg-mesh-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(10, 209, 188, 0.08), transparent 60%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@layer components {
+  .form-field {
+    @apply w-full rounded-2xl px-4 py-3.5 text-sm outline-none transition-all duration-300;
+    background-color: var(--surface);
+    border: 1px solid var(--surface-border);
+    color: var(--foreground);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .dark .form-field {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  }
+
+  .form-field::placeholder {
+    color: var(--muted-text);
+    opacity: 0.6;
+  }
+
+  .form-field:focus {
+    border-color: #0AD1BC;
+    box-shadow: 0 0 0 3px rgba(10, 209, 188, 0.2), 0 0 15px rgba(10, 209, 188, 0.15);
+    background-color: var(--surface-secondary);
+  }
+
+  .skill-pill {
+    background-color: var(--surface-secondary);
+    border: 1px solid var(--surface-border);
+    color: var(--foreground);
+    opacity: 0.8;
+  }
+
+  .skill-pill:hover {
+    border-color: #0AD1BC;
+    color: #0AD1BC;
+    box-shadow: 0 0 15px rgba(10, 209, 188, 0.25);
+    background-color: rgba(10, 209, 188, 0.05);
+    opacity: 1;
+  }
+}
