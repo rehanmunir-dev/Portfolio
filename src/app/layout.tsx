@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://rehanmunir.tech";
+const siteUrl = "https://rehanmunirportfolio.vercel.app";
 const siteTitle = "Rehan Munir | Software Engineer, Frontend Developer & UI/UX Designer";
 const siteDescription =
   "Rehan Munir is a software engineer, frontend developer, and UI/UX designer in Islamabad, Pakistan, building modern React, Next.js, TypeScript, Tailwind CSS, and Figma-based web products.";
@@ -34,7 +34,6 @@ export const metadata: Metadata = {
     "Rehan Munir",
     "Rehan",
     "Rehan Munir portfolio",
-    "rehanmunir.tech",
     "Software Engineer",
     "Software Engineer Pakistan",
     "Software Engineer Islamabad",

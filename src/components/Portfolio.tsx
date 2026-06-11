@@ -739,8 +739,8 @@ export function Portfolio() {
               </div>
               <div className="flex items-center gap-3">
                 <Sparkles className="h-4.5 w-4.5 text-[#0AD1BC]" />
-                <a href="https://rehanmunir.tech" target="_blank" rel="noreferrer" className="break-all transition-colors hover:text-foreground">
-                  rehanmunir.tech
+                <a href="https://rehanmunirportfolio.vercel.app" target="_blank" rel="noreferrer" className="break-all transition-colors hover:text-foreground">
+                  rehanmunirportfolio.vercel.app
                 </a>
               </div>
             </div>
