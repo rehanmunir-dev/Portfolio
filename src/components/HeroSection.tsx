@@ -167,8 +167,8 @@ export function HeroSection() {
           className="mt-10 sm:mt-16 flex flex-wrap items-center justify-center gap-6 sm:gap-12 sm:flex-nowrap"
         >
           {[
-            { value: "27+", label: "Projects" },
-            { value: "3+", label: "Years" },
+            { value: "20+", label: "Projects" },
+            { value: "3", label: "Years" },
             { value: "100%", label: "Satisfaction" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">

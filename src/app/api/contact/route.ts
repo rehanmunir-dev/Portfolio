@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-const contactEmail = "info@rehanmunir.tech"; // sender/SMTP identity
+const contactEmail = "rehanmunir034455@gmail.com"; // sender/SMTP identity
 
 function sanitize(value: unknown) {
   return String(value || "").trim();
