@@ -12,7 +12,7 @@ and UI/UX designer based in Islamabad, Pakistan.
 
 ## Live Website
 
-[rehanmunir.tech](https://rehanmunir.techv)
+[rehanmunirportfolio.vercel.app](https://rehanmunirportfolio.vercel.app/)
 
 ## Highlights
 
